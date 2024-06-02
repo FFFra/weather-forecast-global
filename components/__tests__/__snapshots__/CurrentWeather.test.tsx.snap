@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrentWeather renders default correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "padding": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 40,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    London
+  </Text>
+  <Text
+    style={
+      {
+        "color": "gray",
+        "fontSize": 18,
+      }
+    }
+  >
+    UK
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 60,
+        "fontWeight": "light",
+      }
+    }
+  >
+    20 °C
+  </Text>
+  <Image
+    source={
+      {
+        "uri": "https:https://example.com/icon.png",
+      }
+    }
+    style={
+      {
+        "height": 90,
+        "width": 90,
+      }
+    }
+  />
+  <Text
+    style={
+      {
+        "color": "dimgray",
+        "fontSize": 25,
+        "fontWeight": "bold",
+      }
+    }
+  />
+  <Text
+    style={
+      {
+        "fontSize": 20,
+        "fontWeight": 400,
+        "marginTop": 8,
+      }
+    }
+  >
+    Sunny
+  </Text>
+</View>
+`;
+
+exports[`CurrentWeather renders future wheater prop 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "padding": 16,
+      },
+      {
+        "backgroundColor": "white",
+        "borderColor": "lightgrey",
+        "borderRadius": 10,
+        "borderWidth": 0.9,
+        "elevation": 5,
+        "marginLeft": 15,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 3.84,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 40,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    12:00
+  </Text>
+  <Text
+    style={
+      {
+        "color": "gray",
+        "fontSize": 18,
+      }
+    }
+  />
+  <Image
+    source={
+      {
+        "uri": "https:https://example.com/icon.png",
+      }
+    }
+    style={
+      {
+        "height": 90,
+        "width": 90,
+      }
+    }
+  />
+  <Text
+    style={
+      {
+        "color": "dimgray",
+        "fontSize": 25,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    20 °C
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 20,
+        "fontWeight": 400,
+        "marginTop": 8,
+      }
+    }
+  >
+    Sunny
+  </Text>
+</View>
+`;
