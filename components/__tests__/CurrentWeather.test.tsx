@@ -16,7 +16,7 @@ describe('CurrentWeather', () => {
         expect(tree).toMatchSnapshot();
     });
 
-    it('renders future wheater prop', () => {
+    it('renders future weather prop', () => {
         const tree = renderer
             .create(<CurrentWeather
                 city="London"

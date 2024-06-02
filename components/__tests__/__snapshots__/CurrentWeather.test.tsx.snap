@@ -78,7 +78,7 @@ exports[`CurrentWeather renders default correctly 1`] = `
 </View>
 `;
 
-exports[`CurrentWeather renders future wheater prop 1`] = `
+exports[`CurrentWeather renders future weather prop 1`] = `
 <View
   style={
     [
