@@ -1,5 +1,3 @@
-
-
 ## Get started
 
 1. Install dependencies
@@ -13,11 +11,10 @@
    ```bash
     npx expo start
    ```
-## This should be the expected experience
+   
+## Demo
 
-
-
-
+https://github.com/FFFra/weather-forecast-global/assets/5999878/cfb89f6d-375d-4ff8-ae23-2c40a91273ab
 
 ## Join me at GitHub
 
