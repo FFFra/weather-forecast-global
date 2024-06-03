@@ -18,9 +18,10 @@ This app relies on the public Weather API from [weatherapi.com](https://www.weat
    1. In the root folder of your project, create a `.env` file.
    2. Inside the `.env` file, add the following line, replacing `YOUR_API_KEY` with the API key you obtained from Weather API:
 
-    ```plaintext
-    API_KEY=YOUR_API_KEY
-    ```
+
+      ```bash
+      API_KEY=YOUR_API_KEY
+      ```
 
 Make sure to keep your API key secure and not expose it in your version control.
 
