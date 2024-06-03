@@ -27,7 +27,9 @@ Make sure to keep your API key secure and not expose it in your version control.
 
 ## Demo
 
-https://github.com/FFFra/weather-forecast-global/assets/5999878/cfb89f6d-375d-4ff8-ae23-2c40a91273ab
+https://github.com/FFFra/weather-forecast-global/assets/5999878/094fc2fd-74c9-48f3-a6e4-1c6df62f2a03
+
+
 
 ## Join me at GitHub
 
