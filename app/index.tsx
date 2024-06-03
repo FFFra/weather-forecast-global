@@ -46,12 +46,12 @@ export default function Index() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.searchContainer}>
-        <TextInput style={{ fontSize: 20 }} placeholder='Search City' onChangeText={handleTextDebounce} />
+        <TextInput style={{ fontSize: 20 }} placeholder='Search Location' onChangeText={handleTextDebounce} />
       </View>
       {renderLocationSearch()}
       {error ? (
         <View style={styles.errorContainer}>
-          <Text style={styles.errorText}>Please search for a city</Text>
+          <Text style={styles.errorText}>Please enter a location to search</Text>
         </View>
       ) : loading ? (
         <View style={styles.loadingContainer}>
